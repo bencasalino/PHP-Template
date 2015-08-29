@@ -1,4 +1,4 @@
-###### Name of Project 
+###### Name of Project
 
 ##### Date
 
@@ -16,12 +16,12 @@ Finish.
 
 ## Technologies Used
 
-Twig
-Silex
-PHPUnit
-PHP
-HTML
-sql
+# Twig
+# Silex
+# PHPUnit
+# PHP
+# HTML
+# Apache/Sql/MAMP/phpmyadmin
 
 ### Legal
 
