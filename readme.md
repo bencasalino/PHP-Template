@@ -21,26 +21,26 @@
 - php composer.phar install
 
 # PHPunit Testing
-export PATH=$PATH:./vendor/bin
-phpunit tests
+- export PATH=$PATH:./vendor/bin
+- phpunit tests
 
 # PHP
-cd web
-php -S localhost:8000
+- cd web
+- php -S localhost:8000
 
 #Apache
-apachectl start
-localhost:8080 (to test)
+- apachectl start
+- localhost:8080 (to test)
 
 #mysql - PHPmyadmin
-cd web
-mysql.server start
-my sql -uroot -proot
-localhost:8888/phpmyadmin
+- cd web
+- mysql.server start
+- my sql -uroot -proot
+- localhost:8888/phpmyadmin
 
 #MAMP
-cd web
-localhost:8889
+- cd web
+- localhost:8889
 
 ## Technologies Used
 
