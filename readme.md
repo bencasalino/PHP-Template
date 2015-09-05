@@ -7,13 +7,53 @@
 ## Description
 
 ## Setup
-+ Composer
+________________________________________________________________________________
+Composer add Silex,Twig to composer.json
+----------
+cd ~
+sudo mkdir -p /usr/local/bin
+sudo chown -R $USER /usr/local/
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+------- or --------
+curl -sS https://getcomposer.org/installer | php
+php composer.phar
+php composer.phar install
+---------------------------
+PHPunit Testing
+----------
+export PATH=$PATH:./vendor/bin
+phpunit tests
+________________________________________________________________________________
+PHP
+----------
+cd web
+php -S localhost:8000
+_______________________________________________________________________________
+Apache
+----------
+apachectl start
+localhost:8080 (to test)
+_______________________________________________________________________________
+mysql - PHPmyadmin
+----------
+cd web
+mysql.server start
+my sql -uroot -proot
+localhost:8888/phpmyadmin
 
-> cd ~
-> sudo mkdir -p /usr/local/bin
-> sudo chown -R $USER /usr/local/
-> curl -sS https://getcomposer.org/installer | php
-> mv composer.phar /usr/local/bin/composer
+
+MAMP
+----------
+cd web
+localhost:8889
+_______________________________________________________________________________
+
+
+
+
+
+
 ## Technologies Used
 
 # Twig
