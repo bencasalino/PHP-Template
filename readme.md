@@ -8,16 +8,17 @@
 
 ## Setup
 
-# Composer add Silex,Twig to composer.json
-cd ~
-sudo mkdir -p /usr/local/bin
-sudo chown -R $USER /usr/local/
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-------- or --------
-curl -sS https://getcomposer.org/installer | php
-php composer.phar
-php composer.phar install
+# Composer
+- add Silex,Twig to composer.json
+- cd ~
+- sudo mkdir -p /usr/local/bin
+- sudo chown -R $USER /usr/local/
+- curl -sS https://getcomposer.org/installer | php
+- mv composer.phar /usr/local/bin/composer
+- ------- or --------
+- curl -sS https://getcomposer.org/installer | php
+- php composer.phar
+- php composer.phar install
 
 # PHPunit Testing
 export PATH=$PATH:./vendor/bin
@@ -41,19 +42,13 @@ localhost:8888/phpmyadmin
 cd web
 localhost:8889
 
-
-
-
-
-
-
 ## Technologies Used
 
-- Twig ,
-- Silex ,
-- PHPUnit ,
-- PHP ,
-- HTML , 
+- Twig
+- Silex
+- PHPUnit
+- PHP
+- HTML
 - Apache/Sql/MAMP/phpmyadmin
 
 ### Legal
