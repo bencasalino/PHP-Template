@@ -7,13 +7,13 @@
 ## Description
 
 ## Setup
++ Composer
 
-Start,
-Run $ composer install.
-Start php server in web directory.
-Direct browser to localhost:8000/
-Finish.
-
+> cd ~
+> sudo mkdir -p /usr/local/bin
+> sudo chown -R $USER /usr/local/
+> curl -sS https://getcomposer.org/installer | php
+> mv composer.phar /usr/local/bin/composer
 ## Technologies Used
 
 # Twig
